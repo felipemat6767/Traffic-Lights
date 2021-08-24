@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sombra{
+  box-shadow: 0 0 10px 10px rgb(241, 241, 138),  
+  0 0 15px 15px rgb(241, 241, 138), 
+  0 0 15px 15px rgb(241, 241, 138);
+}

@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import {SemaforoTop} from './SemaforoTop';
+import {Semaforocuerpo} from './SemaforoCuerpo';
 import reportWebVitals from './reportWebVitals';
+import {App, Appa} from "./objetos" 
 
 ReactDOM.render(
   <React.StrictMode>
+    <SemaforoTop />
+    <Semaforocuerpo />
     <App />
+    <Appa />
   </React.StrictMode>,
   document.getElementById('root')
 );
